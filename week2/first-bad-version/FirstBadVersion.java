@@ -12,7 +12,7 @@ public class FirstBadVersion {
             else if(isBadVersion(mid)){
                 right = mid - 1;
             }
-            else if(isBadVersion(mid)){
+            else if(!isBadVersion(mid)){
                 left = mid + 1;
             }
         }
